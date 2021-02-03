@@ -3,44 +3,82 @@
 
 ## Table of Contents
 - [Description](#description)
+- [Technologies](#technologies)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
+- [Deployment](#deployment)
 - [License](#license)
 
 ## Description: 
+ Welcome to our virtual store, Flame Game an Apothecary of Hilarity. In our virtual store you can choose from any number of fun candles for you and yours. Enjoy our fully functioning products page, cart and checkout. Flame Game is an ideal template for your online store!
 
-         Welcome to our virtual store, Flame Game an Apothecary of Hilarity. In our virtual store you can choose from any number of fun candles for you and yours. Enjoy our fully functioning products page, cart and checkout. Flame Game is an ideal template for your online store!
+## Technologies
+- HTML
+- CSS
+- Bootstrap
+- JavaScript
+- NodeJs
+- Express
+- MySQL
 
 ## Installation:
 
-         Simply follow our Heroku link to see our functioning website or feel free to check out our code in the adjoining GitHub repository.
+Install express, js-image-zoom and mysql within package.json file using `npm install` command.
+The dependencies are below:
+
+* Use the [MySQL](https://www.npmjs.com/package/mysql) NPM package to connect to your MySQL database and perform queries.
+
+* Use [express](https://www.npmjs.com/package/express) NPM package to that provides a robust set of features for web and mobile applications.
+
+* Use [js-image-zoom](https://www.npmjs.com/package/js-image-zoom) JavaScript utility for desktop browsers for image zoom on mouse hover.
 
 ## Usage:
 
-         Upon opening the site feel free to browse the products and add them to your cart. Upon selecting items feel free to adjust quantitites, and add or delete items from your cart. When you are ready to checkout, enter your information and you will receive a confirmation message.All items are adjusted in the database. 
+* Upon opening the site feel free to browse the products and add them to your cart.
+
+![Browse Products](public/assets/images/flamegame0.png)
+
+* Upon selecting items feel free to adjust quantitites, and add or delete items from your cart.
+
+![Selected Products](public/assets/images/flamegame1.png)
+
+* When you are ready to checkout, enter your information and you will receive a confirmation message.All items are adjusted in the database.
+
+![Checkout page](public/assets/images/flamegame2.png)
+
+![Order Confirmation](public/assets/images/flamegame3.png)
 
 ## Credits:
 
-        Anjali Pant: Front end design and backend engineering, Niki Fereidooni: Front end design and implementation, Karim Kapadia: Back end framework and implementation, and Shaun Samoridny: Project Coordinator and repo management with some minor contributions to front and back end implimentation
+- Anjali Pant: Front end design and backend engineering
+- Niki Fereidooni: Front end design and implementation
+- Karim Kapadia: Back end framework and implementation
+- Shaun Samoridny: Project Coordinator and repo management with some minor contributions to front and back end implementation
 
-## GitHUb Adress:
+## Deployment
 
-        SSamoridny/Project-2-Flame-Game
-        https://tranquil-temple-78360.herokuapp.com/
+```bash
+  $ git commit -m "{UPDATED MESSAGE}"
+  $ git push origin master
+  $ git push heroku master
+```
+
+This will deploy to [heroku](https://tranquil-temple-78360.herokuapp.com/) 
+
 
 ## Email Address:
 
-        ssamoridny@gmail.com
-        nikifereidooni@gmail.com
-        pantanjali7@gmail.com
-        karimkapadia@gmail.com
+For more questions about this project, feel free to contact us:
+
+ssamoridny@gmail.com
+nikifereidooni@gmail.com
+pantanjali7@gmail.com
+karimkapadia@gmail.com
 
 ## License:
     
-
-    
-    MIT LICENSE
+MIT LICENSE
 
 Copyright (c) [2020] [Shaun Samoridny, Niki Fereidooni, Anjali Pant, Karim Kapadia]
 
